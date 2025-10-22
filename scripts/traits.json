@@ -1,5 +1,5 @@
-var traits = {
+{
   "Simplicity": [
     { "trait_value": "minimal", "trait_description": "Minimal", "weight": 1 }
   ]
-};
+}
