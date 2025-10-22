@@ -97,7 +97,7 @@ function displayError(message) {
 (async function () {
     try {
         // Fetch traits data from the local JSON file
-       const response = await fetch('traits.json');
+      const response = await fetch('/256test/scripts/traits.json');
         if (!response.ok) {
             throw new Error(`Failed to fetch traits.json: ${response.status} ${response.statusText}`);
         }
